@@ -1,0 +1,27 @@
+﻿<Window x:Class="CRUD_con_SQLite.EliminarRegistro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CRUD_con_SQLite"
+        mc:Ignorable="d"
+        Title="EliminarRegistro" Height="368.797" Width="360.15">
+
+    <Window.Background>
+        <ImageBrush ImageSource="imagen/logo.jpg">
+
+        </ImageBrush>
+    </Window.Background>
+    <Grid Margin="0,0,2,7">
+
+        <TextBox x:Name="txtEliminar" HorizontalAlignment="Left" Height="29" Margin="171,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" TextChanged="txtEliminar_TextChanged" Background="#FFF5EFEF" OpacityMask="#C4000000"/>
+        <Label  Content="Nombre de la guitarra" HorizontalAlignment="Left" Margin="5,75,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Width="161" Background="#FF52EEEE"/>
+        <Button x:Name="btnEliminar" Content="EliminarRegistro" HorizontalAlignment="Left" Margin="93,144,0,0" VerticalAlignment="Top" Width="170" Height="28" Click="btnEliminar_Click"/>
+        <Label Background="#FF52EEEE" Content="Eliminar" HorizontalAlignment="Right" Margin="0,10,102,0" VerticalAlignment="Top" Width="106" FontWeight="Bold" FontSize="16">
+            <Label.BorderBrush>
+                <ImageBrush/>
+            </Label.BorderBrush>
+        </Label>
+
+    </Grid>
+</Window>
